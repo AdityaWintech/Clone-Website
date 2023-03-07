@@ -1,0 +1,540 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#navbar{
+    border:0px solid green;
+    font-family: 'Poppins', sans-serif;
+    background-color: #047BD5;
+    height: 55px;
+    display: grid;
+    grid-template-areas:
+    'logo logo logo logo logo search-bar search-bar search-bar search-bar search-bar search-bar search-bar search-bar name become-a-seller become-a-seller more more cart cart cart';
+
+    
+
+}
+#nav-flipkart-logo{
+    grid-area:logo ;
+    cursor: pointer;
+    
+
+}
+#nav-search-bar{
+    grid-area:search-bar;
+    
+}
+#nav-name-aditya{
+    grid-area:name;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+#nav-become-a-seller{
+    grid-area:become-a-seller;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+#nav-more{
+    grid-area:more;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+#nav-cart{
+    grid-area:cart;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+/* ---------------------------------------join plus */
+.join-plus{
+    color: #F8E831;
+    font-weight: 900;
+    cursor: pointer;
+}
+#join-plus{
+    float: right;
+    margin-top: 5PX;
+    margin-right: 2PX;
+    cursor: pointer;
+    
+}
+a{
+    text-decoration: none;
+}
+/* ----------------------------------------Search bar----------------------------------------------- */
+#search-text{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6px;
+    width: 100%;
+    height: 42px;
+    background-color: white;
+    
+    
+    
+    
+}
+#text-bar{
+    width: 100%;
+    padding: 5px 100px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: transparent;
+   
+    
+}
+textarea:focus, input:focus{
+    outline: none;
+}
+#search-magnigy{
+    cursor: pointer;
+    margin-right: 20px;
+    
+}
+/* -------------------------------------Text nav -----------------------------*/
+.text-nav{
+    
+    
+    color: white;
+}
+/* ======================================================================================================= */
+/* our services ----------------------------------------------------------------------------- */
+/* ====================================================================================================== */
+#our-services{
+    border: 0px solid black;
+    
+    height: 100px;
+    background-color:white;
+    display: grid;
+    grid-template-areas: 
+    'grosery grosery grosery mobiles mobiles fashion fashion electronics electronics home home appliances appliances travel travel offer offer beauty beauty beauty wheelers wheelers wheelers'
+    ;
+
+}
+#services-grosery{
+    grid-area: grosery;
+    text-align: center;
+    
+
+}
+#services-mobiles{
+    grid-area:mobiles;
+    text-align: center;
+}
+#services-fashion{
+    grid-area:fashion;
+    text-align: center;
+}
+#services-electronics{
+    grid-area:electronics;
+    text-align: center;
+}
+#services-home{
+    grid-area:home;
+    text-align: center;
+}
+#services-appliances{
+    grid-area:appliances;
+    text-align: center;   
+}
+#services-travel{
+    grid-area:travel;
+    text-align: center;   
+}
+#services-top-offer{
+    grid-area:offer;
+     
+    text-align: center; 
+}
+#services-beauty{
+    grid-area:beauty;
+    
+    text-align: center;   
+}
+
+
+#services-two-weelers{
+    grid-area:wheelers;
+    text-align: center;
+    
+    
+    
+}
+#our-services~b{
+    color:black;
+    text-decoration: none;
+    background-color: #047BD5;
+}
+.serives-text-color{
+    color: black;
+    font-family: 'Work Sans', sans-serif;
+}
+/* =================================================================================== */
+/* =====================Crousels================================================== */
+#crousels{
+    border: 0.1px solid transparent;
+    width: 100%;
+    height: 300px;
+    background-color: aliceblue;
+    box-sizing: border-box;
+}
+#crousels-body-image{
+    border: 0.1px solid transparent;
+   margin:20px;
+    width: 96.8%;
+    height: 259.8px;
+    position: relative;
+    box-sizing: border-box;
+    
+
+}
+#crousels-image{
+    
+    background-repeat: no-repeat;
+    background-position: cover;
+     height:100%;
+    width: 100%;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position:center;
+    
+    
+}
+.slidess{
+    width: 100%;
+    height: 100%;
+    display: none;
+    
+    
+    
+}
+.right-left-width{
+    border: 0px solid transparent;
+    width: 30px;
+    height: 90px;
+    
+}
+#crousel-clic-left{
+    position: absolute;
+    cursor: pointer;
+    top:78px;
+    left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:whitesmoke;
+}
+#crousel-clic-right{
+    position: absolute;
+    cursor: pointer;
+    right: 0px;
+    top: 78px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:whitesmoke;
+    transform: scalex(-1);
+}
+/* ========================menu Container=============================================== */
+/* ===================================================================================== */
+#menu-body{
+    
+    width: 100%;
+    height: 310px;
+    box-sizing: border-box;
+    background-color: aliceblue;
+}
+#menu-container{
+    
+    width: 98.9%;
+    height: 290px;
+    margin: 10px 0px 10px 16px;
+    background-color:white;
+    display: grid;
+    grid-template-areas: 'item-1 item-1 item-1 item-2 item-2 item-2 item-3 item-3 item-3 item-4 item-4 item-4  item-5 item-5 item-5 item-6 item-6 item-6 ';
+}
+#item1{
+    grid-area:item-1;
+    text-align: center;
+    font-size: 20px;
+    margin: auto;
+    font-family: 'Open Sans', sans-serif;
+
+
+}
+#button-view{
+    border: 1px solid #047BD5 ;
+    background-color: #047BD5 ;
+    padding: 5px 10px;
+    cursor: pointer;
+    
+}
+#item2{
+    grid-area:item-2;
+    text-align: center;
+    margin: auto;
+    cursor: pointer;
+    
+}
+#item3{
+    grid-area:item-3; 
+    text-align: center;
+    margin: auto;
+    cursor: pointer;
+}
+#item4{
+    grid-area:item-4;
+    text-align: center;
+    margin: auto;
+    cursor: pointer;
+}
+#item5{
+    grid-area:item-5;
+    text-align: center;
+    margin: auto;
+    cursor: pointer;
+}
+#item6{
+    grid-area:item-6;
+    text-align: center;
+    margin: auto;
+    cursor: pointer;
+}
+
+.menu-rate{
+    color: green;
+    font-weight: 300;
+    cursor: pointer;
+}
+.menu-font{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+
+}
+/* login page */
+#loginContainer{
+    width: 100vw;
+    height: 100vh;
+    background-color:rgba(245, 245, 245, 0.781);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#logintext{
+    border:3px solid white;
+    padding: 6px 17px;
+    background-color: white;
+    color: #047BD5;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    
+    
+}
+#loginpage{
+    border: 1px solid white;
+    width: 650px;
+    height: 500px;
+    background-color: white;
+    display: grid;
+    grid-template-areas: 'left left right right right';
+    
+    
+    
+}
+#left{
+    grid-area: left;
+    position: relative;
+    background-color: #047BD5;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+
+}
+#right{
+    grid-area: right;
+    
+
+}
+
+#h1login{
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-bottom: 8px;
+}
+#loginPageText{
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 24px;
+}
+#loginimage{
+    width: 350px;
+    position: absolute;
+    top: 250px;
+    left: -56px;
+    
+}
+#inputtextpara{
+    font-size: 12px;
+    margin-left:39px;
+    margin-top:15px;
+    opacity:0.9;
+}
+.inputtext{
+    color: #047BD5;
+    
+}
+#textarealogin{
+    width: 300px;
+    padding: 7px 10px;
+    margin-left: 39px;
+    margin-top: 40px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 24px;
+}
+#loginSubmit{
+    padding: 9px 15px;
+    width:300px;
+    margin-top: 35px;
+    font-size: 20px;
+    border: none;
+    background-color: rgba(255, 68, 0, 0.884);
+    margin-left: 39px;
+    cursor: pointer;
+    text-align: center;
+}
+#newtoFlipkart{
+    margin-left: 80px;
+    margin-top: 250px;
+    
+}
+#newtoFlipkart a{
+    color: #047BD5;
+}
+/* signup page========================================================= */
+#signContainer{
+    width: 100vw;
+    height: 100vh;
+    background-color:rgba(245, 245, 245, 0.781);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#signuptext{
+    border:3px solid white;
+    padding: 6px 17px;
+    background-color: white;
+    color: #047BD5;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    
+    
+}
+#signuppage{
+    border: 1px solid white;
+    width: 650px;
+    height: 500px;
+    background-color: white;
+    display: grid;
+    grid-template-areas: 'signleft signleft signright signright signright';
+    
+    
+    
+}
+#signleft{
+    grid-area: signleft;
+    position: relative;
+    background-color: #047BD5;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+
+}
+#signright{
+    grid-area: signright;
+    
+
+}
+
+#h1signup{
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-bottom: 8px;
+}
+#signPageText{
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 18px;
+}
+#signupimage{
+    width: 350px;
+    position: absolute;
+    top: 250px;
+    left: -56px;
+    
+}
+#inputtextparar{
+    font-size: 12px;
+    margin-left:39px;
+    margin-top:15px;
+    opacity:0.9;
+}
+.inputtextt{
+    color: #047BD5;
+    
+}
+#textareasignup{
+    width: 300px;
+    padding: 7px 10px;
+    margin-left: 39px;
+    margin-top: 40px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 24px;
+}
+#signinSubmit{
+    padding: 9px 15px;
+    width:300px;
+    margin-top: 35px;
+    font-size: 20px;
+    border: none;
+    background-color: rgba(255, 68, 0, 0.884);
+    margin-left: 39px;
+    cursor: pointer;
+    text-align: center;
+}
+#newtoFlipkartt{
+    margin-left: 80px;
+    margin-top: 250px;
+    
+}
+#newtoFlipkartt a{
+    color: #047BD5;
+}
+ #signup{
+    padding: 9px 15px;
+    width:300px;
+    margin-top: 35px;
+    font-size: 20px;
+    border: none;
+    background-color:rgba(245, 245, 245, 0.61);
+    margin-left: 39px;
+    cursor: pointer;
+    text-align: center;
+    color: #047BD5;
+}
+/* ====================================================================================== */
+/* ====================================================================================== */
