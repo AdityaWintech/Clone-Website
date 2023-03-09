@@ -1,0 +1,274 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#header-main{
+    width: 100%;
+    height:50px;
+    background-color: rgb(0, 0, 0);
+    padding:5px;
+    font-family: 'Mukta', sans-serif;
+    z-index: 22;
+}
+#header{
+    display: grid;
+    height: 38px;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 2fr 1fr 2fr 1fr 1fr 1fr 2fr;
+    color: white;
+    grid-template-areas: 'header1 header2 header3 header4 header5 header6 header7 header8 header9 header10 header11 header12 header13 header14 header15' ;
+    
+}
+
+#header1{
+    grid-area:header1;
+}
+#header2{
+    grid-area:header2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#apple-logo{
+    width: 20px;
+    cursor: pointer;
+    
+}
+#header3{
+    grid-area:header3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+#header4{
+    grid-area:header4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+#header5{
+    grid-area:header5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+#header6{
+    grid-area:header6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+#header7{
+    grid-area:header7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+#header8{
+    grid-area:header8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+#header9{
+    grid-area:header9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+#header10{
+    grid-area:header10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+#header11{
+    grid-area:header11;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+#header12{
+    grid-area:header12;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+#header13{
+    grid-area:header13;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+#search-logo{
+    width: 20px;
+    cursor: pointer;
+}
+#header14{
+    grid-area:header14;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#cart-logo{
+    width: 20px;
+    cursor: pointer;
+}
+
+#header15{
+    grid-area:header15;
+}
+/* ==========================Second header================ */
+#second-header{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    position: relative;
+    font-family: 'Mukta', sans-serif;
+    
+}
+#sec-header-item-1{
+    color: white;
+    position: absolute;
+    left: 170px;
+    cursor: pointer;
+}
+#sec-header-item-2{
+    color: white;
+    position: absolute;
+    right: 170px;
+
+}
+#button-shop-now{
+    border: 0px solid white;
+    padding: 2px 8px;
+    border-radius:18px;
+    width: 80px;
+    height: 30px;
+    background-color:#047BD5;
+    cursor: pointer;
+    cursor: pointer;
+}
+#third-header{
+   
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #555555;
+    font-family: 'Mukta', sans-serif;
+}
+#link-learn-more{
+    text-decoration: none;
+    color: #047BD5;
+    
+}
+.sticky{          
+    position:sticky;
+    top: 0px;
+    width: 100%;
+    
+}
+/* ========================Content========== */
+#main-content{
+    width: 100%;
+    height:800px;
+    padding: 0px;
+    background-color: rgb(0, 0, 0);
+}
+#content{
+    width: 100%;
+    height: 100px;
+    position: relative;
+    
+}
+#myVideo{
+    width: 100%;
+    height: 750px;
+}
+
+#fursat-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 18px;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 690px;
+    left: 38vw;
+    border: 1px solid white;
+}
+#fursat-button:hover{
+    background-color: white;
+    color: black;
+}
+#fursat-button2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 18px;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 690px;
+    right: 38vw;
+    border: 1px solid white;
+    
+}
+#fursat-button2:hover{
+    background-color: white;
+    color: black;
+}
+#avishal-film{
+    font-size: 49px;
+    position: absolute;
+    top: 436px;
+    left: 33.2vw;
+    color: white;
+    font-family: 'Mukta', sans-serif;
+}
+#shoton-iphone{
+    font-size: 40px;
+    position: absolute;
+    top: 629px;
+    left: 36.5vw;
+    color: white;
+    font-family: 'Mukta', sans-serif;
+}
+#fursat{
+    font-size: 180px;
+    position: absolute;
+    top: 455px;
+    left: 35.4vw;
+    color: white;
+    font-family: 'Smythe', cursive;
+}
+/* =================================================== */
+#main-content-2{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
